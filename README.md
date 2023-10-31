@@ -3,6 +3,7 @@
 
 ## 用例
 ### Google Colab挂载网盘安装
+!pip install torchmetrics==0.11.4 --extra-index-url https://download.pytorch.org/whl/cu117
 点击下方按钮运行即可
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AI-skimos/3line-colab-sd/blob/master/all.ipynb)
 
