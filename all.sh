@@ -234,6 +234,8 @@ function prepare_fuse_dir {
     unionfs-fuse $BASEPATH/extensions/sd-webui-additional-networks/models/lora=RW:$BASEPATH/models/Lora=RW:/content/lora=RW /content/fused-lora+
 }
 
+pip install torchmetrics==0.11.4
+
 function install {
     #Prepare runtime
     component_types=( "webui" "extensions" "scripts" "embeddings" "ESRGAN_models" "checkpoints" "hypernetworks" "lora" "lycoris" "vae" "clip" "cn_models" )
