@@ -257,7 +257,7 @@ function install {
 function run {
     #Install google perf tools
     prepare_perf_tools
-
+    pip install torchmetrics==0.11.4
     prepare_pip_deps
     prepare_fuse_dir
 
